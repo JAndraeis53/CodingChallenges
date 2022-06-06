@@ -1,0 +1,29 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "name": "Dishes",
+            "location": "Location: Kitchen",
+            "customerId": 1,
+            "locationId": 2
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Hannah Hall",
+            "address": "7002 Chestnut Ct"
+        }
+    ],
+    "employees": [],
+    "locations": [
+        {
+            "id": 1,
+            "name": "kitchen"
+        },
+        {
+            "id": 2,
+            "name": "bathroom"
+        }
+    ]
+}
