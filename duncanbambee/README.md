@@ -1,75 +1,36 @@
 This is my repository for a Technical Assessment. Below are React instructions for operating an app.
 
+## To Run App 
+Run this script to run web application
+<< npm start >>
 
+Run this script to surface local database
+<<json-server -p 8088 -w database.json>>
 
-# Getting Started with Create React App
+## Guidelines
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Feature
+Task manager for authenticated users. 
 
-## Available Scripts
+Requirements
+1.	Back End: NodeJS (prefer framework like Nest.js, Express, Koa, Hapi)
+2.	Front End: Vue.js or React
+Implementation Details
 
-In the project directory, you can run:
+Create a Task service to allow users to perform operations on their tasks. The user can,
+1.	Create a task (name, description, and due date)
+a.	A task will have two statuses: “New” and “Completed”
+b.	“New” is a default status
+2.	See all Tasks (both new & completed)
+3.	View details of a single task in a details view
+4.	Update a task name, description, due date, and status (“New” to “Completed”)
+5.	Delete a task
 
-### `npm start`
+Create an app that implements the mocks below and uses the task service you created.  Consider the mocks a suggestion and feel free to implement as you see fit.
+Suggestions:
+1.	Limit yourself to about 4 hours with time spread fairly evenly between implementation details.   It is not expected to be fully functional in this amount of time, just something that shows how you would proceed if you had more time.
+2.	Our goal in this development challenge is to see your thought process; there are no right or wrong answers, we just want to see how you reason about various engineering decisions.  
+3.	We’ve purposely left things loosely defined & designed so you can use your discretion and make some opinionated / personal choices.
+4.	Don’t attempt to get everything perfect.  We are more interested in reading what you consider necessary to make this piece of work “production ready”.  Consider writing it in readme.
+5.	Have fun! Don’t take it too seriously, we just want to learn about you and your style.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# TaskManagerAssessment
